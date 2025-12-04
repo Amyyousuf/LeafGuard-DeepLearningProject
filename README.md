@@ -31,7 +31,7 @@ Preprocessing pipeline ensures consistent image quality
 
 Automatically generates short treatment steps
 
-Powered by OpenAI API (optional)
+Powered by OpenAI API 
 
 📊 Drift Monitoring Dashboard
 
@@ -65,7 +65,7 @@ LeafGuard/
 │── drift_data/
 │     ├── train_distribution.json
 │     └── drift_history.json
-│── requirements.txt           # Dependencies (if added)
+│── requirements.txt           # Dependencies 
 │── README.md
 │── LICENSE
 
@@ -83,7 +83,7 @@ Matplotlib & Seaborn
 
 PIL
 
-OpenAI GPT-4o (optional for cure generation)
+OpenAI GPT-4o 
 
 🖼️ How It Works
 
@@ -127,7 +127,7 @@ No part of this code may be used, copied, or modified without written permission
 
 👩‍💻 Authors
 
-Iqra, Sameen, & Laiba
+Iqra Nawaz, Sameen Fatima & Laiba Nadeem
 
 🙌 Acknowledgements
 
