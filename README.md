@@ -120,6 +120,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 3. Open the URL shown in terminal (usually http://localhost:8501/)
+
 🔐 License
 
 This project is protected under All Rights Reserved.
