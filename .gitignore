@@ -1,0 +1,53 @@
+# ========================
+# Operating system files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDE / Editor files
+# ========================
+.vscode/
+*.suo
+*.idea/
+*.swp
+*.sln
+
+# ========================
+# Python files
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.env
+
+# ========================
+# Node.js / JavaScript files
+# ========================
+node_modules/
+npm-debug.log
+
+# ========================
+# Log / temporary files
+# ========================
+*.log
+*.tmp
+*.bak
+
+# ========================
+# Build / compiled files
+# ========================
+dist/
+build/
+*.exe
+*.dll
+*.class
+
+# ========================
+# Miscellaneous
+# ========================
+*.zip
+*.tar.gz
+*.rar
