@@ -1,0 +1,8 @@
+streamlit
+numpy
+tensorflow
+pillow
+matplotlib
+seaborn
+python-dotenv
+openai

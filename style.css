@@ -1,0 +1,88 @@
+/* 🌿 MAIN AREA BACKGROUND — now white, clean, simple */
+[data-testid="stAppViewContainer"] > .main {
+    background-color: #ffffff !important;
+}
+
+/* 🪟 GLASS EFFECT CARD */
+.main .block-container {
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+    padding: 2rem 3rem;
+}
+
+/* 🌱 Titles */
+h1, h2, h3 {
+    color: #004d00 !important;
+    font-weight: 700 !important;
+}
+
+/* 🧭 Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #fafafa !important;
+    border-right: 1px solid #ddd;
+}
+[data-testid="stSidebar"] * {
+    color: #111 !important;
+}
+
+/* 📂 File Upload Label */
+.stFileUploader > label {
+    font-size: 1.1rem !important;
+    color: #004d00 !important;
+    font-weight: bold;
+}
+
+/* 📊 Metric Text */
+.stMetric > label {
+    font-weight: bold !important;
+}
+
+/* 🛑 Alerts (Success/Error/Warning) */
+div[data-testid="stAlert"] {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* 📈 Charts smaller */
+.css-1ht1j8u, .css-1v0mbdj, .element-container img {
+    max-width: 70% !important;
+    margin: auto !important;
+}
+
+/* 🖼 Uploaded Image smaller */
+.stImage img {
+    max-width: 80% !important;
+    border-radius: 12px;
+}
+
+/* 📋 DataFrame Table Styling (YES, you should include this) */
+.stDataFrame table {
+    font-size: 0.9rem !important;
+}
+.stDataFrame th {
+    background-color: #2E8B57 !important;
+    color: #fff !important;
+}
+.stDataFrame td {
+    padding: 0.5rem 1rem !important;
+}
+.stDataFrame tr:nth-child(even) {
+    background-color: #f9f9f9 !important;
+}
+.stDataFrame tr:nth-child(odd) {
+    background-color: #ffffff !important;
+}
+.stDataFrame tr:hover {
+    background-color: #e0f7e0 !important;
+}
+
+/* 📅 Date input */
+.stDateInput > div > input {
+    border: 2px solid #2E8B57 !important;
+    border-radius: 8px !important;
+    padding: 0.4rem 0.6rem !important;
+}
